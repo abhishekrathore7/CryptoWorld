@@ -100,6 +100,7 @@ a:hover{
 
     .navbar{
         flex: 1;
+        flex-direction: column;
     }
 
     .main{
@@ -112,7 +113,7 @@ a:hover{
     .nav-container{
         height: 8vh;
         position:fixed;
-        width: 100%;
+        width: 50%;
         z-index: 100;
         background-color: var(--bgSecondary);
     }
